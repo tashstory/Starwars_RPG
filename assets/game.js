@@ -8,12 +8,12 @@ $(document).ready(function () {
     
 
     function GemValues() {
-        var target = (Math.floor(Math.random() * 200) + 50);
+        var target = (Math.floor(Math.random() * 120) + 19);
         $("#TargetNumberVal").html(target);
-        var RedButton = (Math.floor(Math.random() * 20) + 1);
-        var BlueButton = Math.floor(Math.random() * 20) + 1;
-        var YellowButton = Math.floor(Math.random() * 20) + 1;
-        var GreenButton = Math.floor(Math.random() * 20) + 1;
+        var RedButton = (Math.floor(Math.random() * 12) + 1);
+        var BlueButton = Math.floor(Math.random() * 12) + 1;
+        var YellowButton = Math.floor(Math.random() * 12) + 1;
+        var GreenButton = Math.floor(Math.random() * 12) + 1;
         var entry = 0;
         $("#currentCountVal").html(entry)
         
